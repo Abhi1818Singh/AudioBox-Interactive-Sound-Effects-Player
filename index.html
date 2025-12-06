@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AudioBox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Iceberg&family=Nova+Square&family=Press+Start+2P&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Tektur:wght@400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="website icon" type="png" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="nav1">
+                <i class="fa-solid fa-circle-play"></i>
+                AudioBox - Sound Effects
+            </div>
+        </div>
+    </nav>
+
+    <div class="soundbox">
+
+        <div class="box1">
+
+            <span class="icon">🎶</span>
+            <i class="fa-solid fa-play play-icon"></i>
+
+            <span class="label">Dun Dunn Dunnn</span>
+
+            <div class="controls">
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" min="0" max="1" step="0.01" value="1" class="volume-slider" data-audio="audio-dun">
+            </div>
+
+        </div>
+        <div class="box2">
+
+            <span class="icon">😡🐶</span>
+            <i class="fa-solid fa-play play-icon"></i>
+
+            <span class="label">Angry Dog Growl</span>
+
+            <div class="controls">
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" min="0" max="1" step="0.01" value="1" class="volume-slider"
+                    data-audio="audio-angry-dog">
+            </div>
+
+        </div>
+
+        <div class="box3">
+
+            <span class="icon">😂😂</span>
+            <i class="fa-solid fa-play play-icon"></i>
+
+            <span class="label">Laugh</span>
+
+            <div class="controls">
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" min="0" max="1" step="0.01" value="1" class="volume-slider"
+                    data-audio="audio-laugh">
+            </div>
+
+        </div>
+
+        <div class="box4">
+
+            <span class="icon">🚨🚔</span>
+            <i class="fa-solid fa-play play-icon"></i>
+
+            <span class="label">Police</span>
+
+            <div class="controls">
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" min="0" max="1" step="0.01" value="1" class="volume-slider"
+                    data-audio="audio-police">
+            </div>
+
+        </div>
+
+        <div class="box5">
+
+            <span class="icon">🚩🪷</span>
+            <i class="fa-solid fa-play play-icon"></i>
+
+            <span class="label">Modiji</span>
+
+            <div class="controls">
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" min="0" max="1" step="0.01" value="1" class="volume-slider" data-audio="audio-modi">
+            </div>
+
+        </div>
+
+        <div class="box6">
+
+            <span class="icon">🛕🚩</span>
+            <i class="fa-solid fa-play play-icon"></i>
+
+            <span class="label">Lord Ram</span>
+
+            <div class="controls">
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" min="0" max="1" step="0.01" value="1" class="volume-slider"
+                    data-audio="audio-prabhu">
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <audio id="audio-dun" src="sounds/dun-dunn.mp3"></audio>
+    <audio id="audio-angry-dog" src="sounds/angry-dog-growl.mp3"></audio>
+    <audio id="audio-laugh" src="sounds/laugh.mp3"></audio>
+    <audio id="audio-police" src="sounds/police-agayi.mp3"></audio>
+    <audio id="audio-modi" src="sounds/modi.mp3"></audio>
+    <audio id="audio-prabhu" src="sounds/hey-prabhu.mp3"></audio>
+
+
+    <footer>
+        © All Rights Reserved | Abhishek Indradeo Singh 
+        <div class="social">
+            <a href="https://github.com/Abhi1818Singh" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/abhishek-singh-67b75b377/" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/abhi._.1818/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+
+
+</body>
+
+</html>
